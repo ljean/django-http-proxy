@@ -7,7 +7,7 @@ from django.http import HttpResponse
 from django.utils.six.moves import urllib
 from django.views.generic import View
 
-from httpproxy.recorder import ProxyRecorder
+from .recorder import ProxyRecorder
 
 
 logger = logging.getLogger(__name__)
